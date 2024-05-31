@@ -1,10 +1,7 @@
 Q: 
+如何完全卸载office 365 ProPlus，如果用户使用之前的office版本没有卸载干净（配置文件中保持了原有的Key）会造成新安装的office 365 ProPlus 或者最新版的office客户端无法正常激活（客户端安装完成之后，已经激活了），或者会有使用性的问题，此时我们就需要彻底的删除原有的office版本或者key
 
-　　如何完全卸载office 365 ProPlus，如果用户使用之前的office版本没有卸载干净（配置文件中保持了原有的Key）会造成新安装的office 365 ProPlus 或者最新版的office客户端无法正常激活（客户端安装完成之后，已经激活了），或者会有使用性的问题，此时我们就需要彻底的删除原有的office版本或者key
-
- 
-
-A：
+ A：
 
 1）卸载office 的小工具
 
@@ -31,9 +28,6 @@ https://support.office.com/zh-cn/article/%E4%BB%8E-PC-%E5%8D%B8%E8%BD%BD-Office-
     https://support.office.com/zh-cn/article/卸载-Office-2011-for-Mac-4bfcd230-0ea1-4656-bf30-dbfa44d358fa?ui=zh-CN&rs=zh-CN&ad=CN
 
    
-
 可参考： https://support.microsoft.com/zh-cn/kb/2398768
-
  
-
  https://support.office.com/en-us/article/Uninstall-Office-2016-Office-2013-or-Office-365-from-a-PC-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8
