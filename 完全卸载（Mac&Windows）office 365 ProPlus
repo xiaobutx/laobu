@@ -1,0 +1,36 @@
+Q: 
+　如何完全卸载office 365 ProPlus，如果用户使用之前的office版本没有卸载干净（配置文件中保持了原有的Key）会造成新安装的office 365 ProPlus 或者最新版的office客户端无法正常激活（客户端安装完成之后，已经激活了），或者会有使用性的问题，此时我们就需要彻底的删除原有的office版本或者key
+
+ A：
+
+1）卸载office 的小工具
+
+https://support.office.com/zh-cn/article/%E4%BB%8E-PC-%E5%8D%B8%E8%BD%BD-Office-2016%E3%80%81Office-2013-%E6%88%96-Office-365-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8?ui=zh-CN&rs=zh-CN&ad=CN
+
+2）卸载未完整移除的key
+
+　需要注意Office安装路径
+
+    用这个命令显示所有安装的Key   #####  cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus
+
+    删除Key最后5位，需要以管理员身份运行cmd   #####  cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /unpkey:*****
+
+    ----然后关闭防火墙，重新激活
+
+ 3）针对于Mac操作系统，如何移除office 2016
+
+    卸载Office2016 fro MAC
+
+    https://support.office.com/zh-cn/article/%E5%8D%B8%E8%BD%BD-Office-2016-for-Mac-eefa1199-5b58-43af-8a3d-b73dc1a8cae3
+
+    卸载 Office 2011 for Mac
+
+    https://support.office.com/zh-cn/article/卸载-Office-2011-for-Mac-4bfcd230-0ea1-4656-bf30-dbfa44d358fa?ui=zh-CN&rs=zh-CN&ad=CN
+
+   
+
+可参考： https://support.microsoft.com/zh-cn/kb/2398768
+
+ 
+
+ https://support.office.com/en-us/article/Uninstall-Office-2016-Office-2013-or-Office-365-from-a-PC-9dd49b83-264a-477a-8fcc-2fdf5dbf61d8
